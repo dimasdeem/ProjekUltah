@@ -13,8 +13,8 @@ let countDown = new Date('Jun 4, 2023 00:00:00').getTime(),
 
     document.getElementById('days').innerText = Math.floor(distance / (day)),
     document.getElementById('hours').innerText = Math.floor(distance / (hour)),
-      document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-      document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+    document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+    document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
     if (distance < 0) {
 
